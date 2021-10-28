@@ -9,6 +9,8 @@ def main():
     parser.add_argument('--last_opponent_move', help='last opponent move')
 
     args = parser.parse_args()
+    if args.init == 'true':
+        print("init is true")
     return
 
 
